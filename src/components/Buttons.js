@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { Text, TouchableOpacity, StyleSheet } from "react-native";
 
 export default function BlackButton(props) {
   const { title, onPress } = props;
@@ -16,7 +16,7 @@ export default function BlackButton(props) {
 const styles = StyleSheet.create({
   button: {
     alignSelf: "center",
-    paddingVertical: 15,
+    paddingVertical: 5,
     width: "40%",
     borderRadius: 15,
     marginVertical: 20,
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   buttontext: {
     textAlign: "center",
     fontWeight: "bold",
-    color: "#7F8C8D",
+    color: "#34495E",
     fontSize: 15,
   },
 });
